@@ -4,22 +4,7 @@ import Comments from "../components/comments/Comments";
 import HighlightedQuote from "../components/quotes/HighlightedQuote";
 import useHttp from "../hooks/use-http";
 import { getSingleQuote } from "../lib/api";
-import NoQuotesFound from "../components/quotes/NoQuotesFound";
 import LoadingSpinner from "../components/UI/LoadingSpinner";
-
-const DUMMY_QUOTES = [
-  {
-    id: "q1",
-    author: "Mugabe",
-    text: "If you're ugly, you're ugly.",
-  },
-  {
-    id: "q2",
-    author: "Slim shady",
-    text: "Palms are sweaty, knees weak arms are heavy.",
-  },
-];
-
 const QuoteDetail = () => {
   const match = useRouteMatch();
   const params = useParams();

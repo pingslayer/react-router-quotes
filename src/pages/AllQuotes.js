@@ -5,19 +5,6 @@ import useHttp from "../hooks/use-http";
 import { getAllQuotes } from "../lib/api";
 import NoQuotesFound from "../components/quotes/NoQuotesFound";
 
-const DUMMY_QUOTES = [
-  {
-    id: "q1",
-    author: "Mugabe",
-    text: "If you're ugly, you're ugly.",
-  },
-  {
-    id: "q2",
-    author: "Slim shady",
-    text: "Palms are sweaty, knees weak arms are heavy.",
-  },
-];
-
 const AllQuotes = () => {
   const {
     sendRequest,
