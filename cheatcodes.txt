@@ -1,0 +1,9 @@
+Link, NavLink
+
+useHistory() - do push or replace views
+
+useParams() - get ? params from url
+
+useLocation() - get path details
+
+useRouteMatch() - Just like location but more precise
