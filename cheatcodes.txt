@@ -7,3 +7,6 @@ useParams() - get ? params from url
 useLocation() - get path details
 
 useRouteMatch() - Just like location but more precise
+
+React.lazy(() => import("./pages/NewQuote")) - optimizations in app.js
+<Suspense fallback={}></Suspense>
