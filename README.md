@@ -1,3 +1,3 @@
 # Quotes
 
-Your daily dose of good moring quotes
+Your daily dose of good morning quotes
