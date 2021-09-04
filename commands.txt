@@ -1,1 +1,3 @@
 Commands:
+
+firebase init (must be run in the project folder)

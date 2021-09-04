@@ -3,5 +3,8 @@
 /dist
 /.idea
 /npm-debug.log
+/.firebase
+.firebaserc
 .eslintcache
+firebase.json
 package-lock.json
